@@ -1,0 +1,70 @@
+.login{
+    border: 5px black solid;
+    height: 450px;
+    width: 420px;
+    text-align: center;
+    background: url(data:image/webp;base64,UklGRuQEAABXRUJQVlA4INgEAABQNgCdASpcAeoAPp1Oo02lpCOsIfGoaYATiWlu4EqqMDBS0mhKpXe6jvCLVnnQ8i/v/6zjkYGbEZHyZLc2EHnLi8z+gpP6Edrh2YN7kRfIa7RP/qMzxQSLQgdwon1c5lPWBwqfQs7QzKidBYof2DtNTiS6ygxtiItkGHxYD8mKMWKnz7iaXjf/UEErMzTsbNE9x6z1TUUEgHjUYcC4Tlbi3jct36InZICFPLfGuNwUYorAne76zw7eNNUGPl3tSE59K3vLZOt7UKSHSAPA9zUqpo0dSAYrHt69mnS9GIQGlVSn7o8p1kyXynEqk5fdIZTqiSFoUVqXaA2w9DSHVrVT5eKepMh2lTpV52sALOdEdMghGtettn1GrQQCIZejvp29EyfbzhT3+X3UHt+QI/0/1ArgHyPi6W2hXfdVVM9tP3BwmR03hbwLDCkyhLo4zNvLgY/6+vjEjGQ+ee57P1aGBAlOAZ0wF/eRcgr2hDvhOAfx+FicB3U/VstluBONpXtoxN6LkxGQjuVp1vfPtasidJdhcMqyFX8BWa+clgcSiPn+ywsCrmhgY5QggYOO5O1XqpNr8iQ5AOZIgAD+3OJV/+4P4+/nXVPiTHopSxw/yy6s56WzaXcSeWL3HljvTqwhNjPg+3KK9L4aHP1m/RQw8YxlIF5ZkKY3bl4qkDH/4aHmXXcU3gZgMaT29zULLuKVLxG2xdg1NgxdpP6WV/4rPAyX059wF6fQJ3slH+Y2OoZj5kaUkcuM2JlFg8yL2/+l5x/7rMEI99p6iT5pyEgOo3tBuvg0bf5cnjE4hRjgmE8QcSwGEiDABwfG1676ogu9CBsmnzZ/ZjgJPpvKax/Ak/A0IeDN9VYlb/agKyJuRzROu8PoZ/yL4XL4t3JWSG/yk6mYX4fJUZ20Gfr+9nM6gjwN6M5hCQB3IbFMSJ9CvTh5xnF4i+GwyY9Y1vzangpJhTuZV/tFLDhdcX11IZq1bSUvFa/FA+Z7a3aGqasxNB+bg1y0sJKt4ABXn/z72TCOTthyHz9aZQtT1wMJ5fGJkxDMlX7vt273BBBujpvRS0xgPqoamtXcytyjGklrBgburbmVuSB8U4hfEC2KVfq8TAdF+D4tM5pRWCWFDe7TvYewAlicsKZvU+pwi5rZckbq6tj5+kkLKXA0oAGJreMREIxfQaFGcQeBhdEhBQMijl8Q9Fe5JJOtEyPEmHKccMYpffYBFMsGF3KLB15xHdFMhLxUZ14nwVpHqN1vB0d1JnX/AABtI+6fOvJ2EREj3W2Nq8gl/S5upNughyXiPfF/ZV1m/2/KH1M2+ztxNP2S3fIIdd+SvRP3bfUqdhZsw9IHm5WWefX149ivlXS4L2rY7ZeTbZHpuv72ac18ihY1vT3/X9aYA1T2xfPatNC4vAfKlNNw5u6sBCOkd/sxUI35YtTs6xBgxks5k6ENCm+1u26RjgLGNlqksdyaegzMWobU0twZUJbRTWkGQmQ21rpRTrKYjDCNwcDrwMY9M1mSfzzPHo20oRvHf5dbitRgR7VFl36oGwuhy/5dTWwwN8JcaaUg5DrAsPZR4iejvJr3uZqfNusJjYRklrM4ZjsG8FZvDirOQLm3XJ/8BOWmQEaXSNxCSSxffb9GPvOsaV+nGkQAUpDMK9AA);
+    backdrop-filter: brightness(30%);
+    border-width: 5px;
+    border-color:black;
+    text-transform: uppercase;
+    border-radius: 20px;
+    margin-left: 600px;
+    margin-top: 100px;
+    line-height: 30px;
+    color: black;
+}
+.link{
+    word-spacing: 150px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+form{
+    display: block;
+    box-sizing: border-box;
+    padding: 40px;
+    height: 100%;
+    width: 100%;
+    backdrop-filter: brightness(100%);
+    flex-direction: column;
+    display: flex;
+    gap: 5px;
+    color:black;
+}    
+h1{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 34px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+label{
+    color: black;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-left:2px;
+}
+input{
+    background: rgba(255,255,255,0.3);
+    height: 40px;
+    border-radius: 20px;
+    line-height: 40px;
+    padding: 0px 20px;
+    border: none;
+    margin-bottom: 20px;
+    color:black;
+    cursor: pointer;
+}
+button{
+  background-color:rgb(72, 113, 127) ;
+  text-transform: capitalize;
+  height:40px;
+  line-height: 40px;
+  border-radius: 40px;
+  border: none;
+  cursor: pointer;
+}
